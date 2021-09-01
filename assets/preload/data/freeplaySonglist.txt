@@ -1,0 +1,4 @@
+Tutorial:gf:1
+icy:dad:1
+fire:dad:1
+slime-attack:dad:1

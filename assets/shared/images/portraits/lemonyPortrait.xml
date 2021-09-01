@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lemonyPortrait.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lemony dialogue0000" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0001" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0002" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0003" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0004" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0005" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0006" x="0" y="0" width="165" height="132"/>
+	<SubTexture name="lemony dialogue0007" x="0" y="0" width="165" height="132"/>
+</TextureAtlas>

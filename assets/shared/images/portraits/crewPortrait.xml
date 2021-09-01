@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crewPortrait.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="slime crew dialogue0000" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0001" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0002" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0003" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0004" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0005" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0006" x="0" y="0" width="169" height="500"/>
+	<SubTexture name="slime crew dialogue0007" x="0" y="0" width="169" height="500"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icyAhhPortrait.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="icy dialogue ahh0000" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0001" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0002" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0003" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0004" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0005" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0006" x="0" y="0" width="181" height="133"/>
+	<SubTexture name="icy dialogue ahh0007" x="0" y="0" width="181" height="133"/>
+</TextureAtlas>
