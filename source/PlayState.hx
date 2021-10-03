@@ -1871,89 +1871,7 @@ class PlayState extends MusicBeatState
 					// Per song treatment since some songs will only have the 'Hey' at certain times
 					switch(curSong)
 					{
-						case 'Philly':
-						{
-							// General duration of the song
-							if(curBeat < 250)
-							{
-								// Beats to skip or to stop GF from cheering
-								if(curBeat != 184 && curBeat != 216)
-								{
-									if(curBeat % 16 == 8)
-									{
-										// Just a garantee that it'll trigger just once
-										if(!triggeredAlready)
-										{
-											gf.playAnim('cheer');
-											triggeredAlready = true;
-										}
-									}else triggeredAlready = false;
-								}
-							}
-						}
-						case 'Bopeebo':
-						{
-							// Where it starts || where it ends
-							if(curBeat > 5 && curBeat < 130)
-							{
-								if(curBeat % 8 == 7)
-								{
-									if(!triggeredAlready)
-									{
-										gf.playAnim('cheer');
-										triggeredAlready = true;
-									}
-								}else triggeredAlready = false;
-							}
-						}
-						case 'Blammed':
-						{
-							if(curBeat > 30 && curBeat < 190)
-							{
-								if(curBeat < 90 || curBeat > 128)
-								{
-									if(curBeat % 4 == 2)
-									{
-										if(!triggeredAlready)
-										{
-											gf.playAnim('cheer');
-											triggeredAlready = true;
-										}
-									}else triggeredAlready = false;
-								}
-							}
-						}
-						case 'Cocoa':
-						{
-							if(curBeat < 170)
-							{
-								if(curBeat < 65 || curBeat > 130 && curBeat < 145)
-								{
-									if(curBeat % 16 == 15)
-									{
-										if(!triggeredAlready)
-										{
-											gf.playAnim('cheer');
-											triggeredAlready = true;
-										}
-									}else triggeredAlready = false;
-								}
-							}
-						}
-						case 'Eggnog':
-						{
-							if(curBeat > 10 && curBeat != 111 && curBeat < 220)
-							{
-								if(curBeat % 8 == 7)
-								{
-									if(!triggeredAlready)
-									{
-										gf.playAnim('cheer');
-										triggeredAlready = true;
-									}
-								}else triggeredAlready = false;
-							}
-						}
+
 					}
 				}
 			}
@@ -2021,32 +1939,6 @@ class PlayState extends MusicBeatState
 				FlxG.watch.addQuick('rep rpesses',repPresses);
 				FlxG.watch.addQuick('rep releases',repReleases);
 			}
-
-		if (curSong == 'Fresh')
-		{
-			switch (curBeat)
-			{
-				case 16:
-					camZooming = true;
-					gfSpeed = 2;
-				case 48:
-					gfSpeed = 1;
-				case 80:
-					gfSpeed = 2;
-				case 112:
-					gfSpeed = 1;
-				case 163:
-			}
-		}
-
-		if (curSong == 'Bopeebo')
-		{
-			switch (curBeat)
-			{
-				case 128, 129, 130:
-					vocals.volume = 0;
-			}
-		}
 
 		if (health <= 0)
 		{
@@ -2269,17 +2161,6 @@ class PlayState extends MusicBeatState
 
 					trace('LOADING NEXT SONG');
 					trace(PlayState.storyPlaylist[0].toLowerCase() + difficulty);
-
-					if (SONG.song.toLowerCase() == 'eggnog')
-					{
-						var blackShit:FlxSprite = new FlxSprite(-FlxG.width * FlxG.camera.zoom,
-							-FlxG.height * FlxG.camera.zoom).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-						blackShit.scrollFactor.set();
-						add(blackShit);
-						camHUD.visible = false;
-
-						FlxG.sound.play(Paths.sound('Lights_Shut_off'));
-					}
 
 					FlxTransitionableState.skipNextTransIn = true;
 					FlxTransitionableState.skipNextTransOut = true;

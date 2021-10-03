@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is the only release, no updates after this
 
+## [1.0.1] - 2021-10-3
+### Removed
+- Unnessesary files
+- Unnessesary code
+
 ## [The only release] - 2021-9-4
 ### Added
 - Release! :)

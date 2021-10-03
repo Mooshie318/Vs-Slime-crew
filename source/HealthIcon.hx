@@ -21,10 +21,6 @@ class HealthIcon extends FlxSprite
 		animation.add('gf', [16], 0, false, isPlayer);
 		animation.play(char);
 		switch(char){
-			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
-				{
-
-				}
 			default:
 				{
 					antialiasing = true;
